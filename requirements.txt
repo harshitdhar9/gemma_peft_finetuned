@@ -1,0 +1,12 @@
+torch>=2.1.0
+transformers>=4.39.0
+peft>=0.11.1
+accelerate>=0.27.0
+bitsandbytes>=0.42.0
+datasets>=2.18.0
+sentencepiece>=0.1.99
+protobuf>=3.20.3
+tqdm
+numpy
+scipy
+huggingface_hub>=0.21.0
