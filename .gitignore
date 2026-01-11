@@ -4,3 +4,4 @@ data/
 data
 src/train/dictionary.csv
 src/train/tokenizer
+src/train/simplification_clean.csv
