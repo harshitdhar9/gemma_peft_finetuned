@@ -5,3 +5,6 @@ data
 src/train/dictionary.csv
 src/train/tokenizer
 src/train/simplification_clean.csv
+src/train/__pycache__
+src/train/simplifier_ckpt
+src/train/__pycache__

@@ -21,9 +21,9 @@ def normalize_jargon(df):
     return df
 
 if __name__ == "__main__":
-    syn_path = "/Users/harshitdhar/Documents/gemma_peft_finetuned/scripts/data/readme_syn_good.csv"
-    exp_path = "/Users/harshitdhar/Documents/gemma_peft_finetuned/scripts/data/readme_exp_good.csv"
-    jargon_path = "/Users/harshitdhar/Documents/gemma_peft_finetuned/scripts/data/medical_jargon.csv"
+    syn_path = "gemma_peft_finetuned/scripts/data/readme_syn_good.csv"
+    exp_path = "gemma_peft_finetuned/scripts/data/readme_exp_good.csv"
+    jargon_path = "gemma_peft_finetuned/scripts/data/medical_jargon.csv"
 
     syn_df = pd.read_csv(syn_path)
     exp_df = pd.read_csv(exp_path)
