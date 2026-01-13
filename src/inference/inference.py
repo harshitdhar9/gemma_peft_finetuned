@@ -71,6 +71,6 @@ def simplify(text: str):
     return clean_output(decoded)
 
 if __name__ == "__main__":
-    test = "The lungs are clear of focal consolidation, effusion or pneumothorax."
+    test = "No acute cardiopulmonary process is identified. The mediastinal contours are within normal limits. No pleural effusion or pneumothorax is seen."
     print("[INPUT]:", test)
     print("[OUTPUT]:", simplify(test))
