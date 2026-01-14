@@ -67,7 +67,6 @@ def simplify(text: str):
 
     if "[Simple]" in decoded:
         decoded = decoded.split("[Simple]")[-1].strip()
-
     return clean_output(decoded)
 
 if __name__ == "__main__":
